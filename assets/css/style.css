@@ -378,16 +378,16 @@ section {
 
 .img-float {
   position: absolute;
-  top: -50px;
+  top: -70px;
 }
 
 .img-float-1 {
   left: 154px;
-  top: -62px;
+  top: -90px;
 }
 
 .text-on-img {
-  top: -34px;
+  top: -62px;
   left: 191px;
   z-index: 1;
   color: #F1F8FE;
@@ -2005,14 +2005,14 @@ a.back span {
 }
 
 .module-cta .btn:hover {
-  background-color: #021626;
+  background-color: #fff;
   border: 2px solid #0b7554 !important;
   border-color: #021626;
-  color: #ffffff;
+  color: #0CCF92;
 }
 
 .module-cta .btn-login:hover {
-  background-color: #021626;
+  background-color: #0CCF92;
   border: 2px solid #0b7554 !important;
   border-color: #021626;
   color: #ffffff;
@@ -2493,7 +2493,7 @@ a.back span {
   font-family: 'MADE TOMMY', sans-serif;
   font-size: 16px;
   text-transform: capitalize;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 22px;
   color: #fff;
   padding: 0;
@@ -2611,6 +2611,10 @@ a.back span {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 576px) {
+  .features .feature-panel .feature-icon {
+    margin-top: 64px;
+  }
+
   .navbar .navbar-brand {
     max-width: 200px;
   }
@@ -2795,15 +2799,15 @@ a.back span {
 
 .header .module-container .module-cta .btn {
   width: auto;
-  height: 50px;
-  padding: 0 35px;
+  height: 39px;
+  padding: 0 15px;
   cursor: pointer;
   font-family: 'MADE TOMMY', sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  border-radius: 5px;
+  border-radius: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2827,10 +2831,10 @@ a.back span {
 }
 
 .header .module-container .module-cta .btn:hover {
-  background-color: #021626;
+  background-color: #fff;
   border: 2px solid #0b7554 !important;
   border-color: #021626;
-  color: #ffffff;
+  color: #0CCF92;
 }
 
 @media screen and (max-width: 991px) {
@@ -2991,7 +2995,7 @@ a.back span {
 .hero .hero-cotainer .hero-content .hero-headline {
   color: #fff;
   font-family: 'MADE TOMMY', sans-serif;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 65px;
   margin-bottom: 11px;
@@ -3002,7 +3006,7 @@ a.back span {
   top: 91px;
   left: 133px;
   color: #fff;
-  font-size: 23px;
+  font-size: 34px;
   line-height: 1.2;
 }
 
@@ -3016,7 +3020,7 @@ a.back span {
 .hero .hero-cotainer .hero-content .hero-bio {
   color: #fff;
   font-family: 'MADE TOMMY', sans-serif;
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 45px;
@@ -3025,9 +3029,9 @@ a.back span {
 .hero .hero-cotainer .hero-content .hero-bio-2 {
   color: #ddd;
   font-family: 'MADE TOMMY', sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 20px;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 25px;
   margin-bottom: 25px;
 }
 
@@ -3494,15 +3498,15 @@ a.back span {
 \*------------------------------------*/
 .features .feature-panel {
   margin-top: 48px;
-  padding: 68px 20px 30px;
-  border-radius: 12px;
+  padding: 30px 10px;
+  /* border-radius: 12px; */
   position: relative;
   -webkit-box-shadow: none;
   box-shadow: none;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
+  /* display: flex; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -3513,9 +3517,9 @@ a.back span {
 }
 
 .features .feature-panel:hover {
-  -webkit-transform: translateY(-15px);
+  /* -webkit-transform: translateY(-15px);
   -ms-transform: translateY(-15px);
-  transform: translateY(-15px);
+  transform: translateY(-15px); */
 }
 
 @media screen and (max-width: 991px) {
@@ -3539,20 +3543,20 @@ a.back span {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   left: 50%;
   top: -48px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 103px;
-  height: 96px;
+  height: 40px;
   color: #0CCF92;
   background-color: #091e2e;
-  border-radius: 22px;
+  /* border-radius: 22px; */
   -webkit-box-shadow: #091e2e00 0px 10px 40px;
   box-shadow: #0d233403 -2px 2px 40px;
-  border: 2px solid;
+  /* border: 2px solid; */
 }
 
 /* .features .feature-panel .feature-icon .bg-img {
@@ -3564,7 +3568,7 @@ z-index: -1;
 
 */
 .features .feature-panel .feature-icon i {
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .features .feature-panel .feature-content h3 {
@@ -3590,20 +3594,25 @@ z-index: -1;
 }
 
 .features .feature-panel.feature-panel-1 {
+  border-right: 3px solid #0CCF92;
   background-color: #091e2e;
 }
 
 .features .feature-panel.feature-panel-2 {
   background-color: #091e2e;
+  border-right: 3px solid #0CCF92;
+
 
 }
 
 .features .feature-panel.feature-panel-3 {
+  border-right: 3px solid #0CCF92;
   background-color: #091e2e;
 
 }
 
 .features .feature-panel.feature-panel-4 {
+  border-right: 3px solid #0CCF92;
   background-color: #091e2e;
 
 }
@@ -3618,10 +3627,11 @@ z-index: -1;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 .color-bg {
-  padding: 28px 0 3.4rem;
+  padding: 50px 0;
   position: relative;
   background: rgba(2, 22, 38, 0.91);
   background-position: center center;
@@ -4234,7 +4244,7 @@ z-index: -1;
     #Footer
 \*------------------------------------*/
 .footer {
-  padding-top: 270px;
+  padding-top: 170px;
   position: relative;
   background-color: #091e2e;
 }
@@ -4260,6 +4270,8 @@ z-index: -1;
 }
 
 .footer .footer-top p {
+  margin: auto;
+  width: 73%;
   font-size: 16px;
   line-height: 26px;
   font-family: 'MADE TOMMY', sans-serif;
@@ -4357,6 +4369,7 @@ z-index: -1;
 
 .footer .footer-top .footer-social ul {
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .footer .footer-top .footer-social ul li {
