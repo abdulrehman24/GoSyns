@@ -1345,8 +1345,8 @@ section {
   position: absolute;
   left: 0px;
   top: 0;
-  background: -o-linear-gradient(left top, #ffffff 49%, #262B47 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
-  background: linear-gradient(to right bottom, #ffffff 49%, #262B47 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: -o-linear-gradient(left top, #021626 49%, #091e2e 50%), -o-linear-gradient(140deg, #021626 16px, #000 0);
+  background: linear-gradient(to right bottom, #021626 49%, #091e2e 50%), linear-gradient(-50deg, #021626 16px, #000 0);
 }
 
 /*------------------------------------*\
@@ -2060,6 +2060,10 @@ a.back span {
   padding: 0;
 }
 
+.card {
+  border-radius: 12px;
+}
+
 .heading.heading-light .heading-title {
   color: #ffffff;
 }
@@ -2631,6 +2635,10 @@ a.back span {
   .img-float {
     position: unset;
     top: -50px;
+  }
+
+  .footer .footer-top .footer-widget .widget-title::before {
+    width: 20% !important;
   }
 
 }
@@ -4228,7 +4236,7 @@ z-index: -1;
 .footer {
   padding-top: 270px;
   position: relative;
-  background-color: #262B47;
+  background-color: #091e2e;
 }
 
 .footer .footer-top {
@@ -4266,12 +4274,23 @@ z-index: -1;
 
 .footer .footer-top .footer-widget .widget-title {
   font-family: 'MADE TOMMY', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 26px;
   font-weight: 600;
   margin-bottom: 40px;
   color: #ffffff;
   text-transform: capitalize;
+}
+
+.footer .footer-top .footer-widget .widget-title::before {
+  background-color: #0CCF92;
+  width: 45%;
+  position: absolute;
+  /* left: 14px; */
+  top: 41px;
+  /* bottom: 0; */
+  content: '';
+  height: 5px;
 }
 
 .footer .footer-top .footer-widget ul {
@@ -4372,12 +4391,12 @@ z-index: -1;
 }
 
 .footer .footer-top .footer-social ul li a:hover {
-  background-color: #925ADD;
+  background-color: #0CCF92;
   color: #ffffff;
 }
 
 .footer .footer-bottom {
-  background-color: #262B47;
+  background-color: #021626;
 }
 
 .footer .footer-bottom hr {
@@ -4389,8 +4408,7 @@ z-index: -1;
   padding-bottom: 32px;
 }
 
-.footer .footer-bottom .footer-copyright a,
-.footer .footer-bottom .footer-copyright span {
+.footer .footer-bottom .footer-copyright a {
   font-family: 'MADE TOMMY', sans-serif;
   font-size: 16px;
   font-weight: 400;
