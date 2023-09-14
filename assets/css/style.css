@@ -51,7 +51,7 @@ body {
   font-family: 'MADE TOMMY', sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #919294;
+  color: #dddddd;
   line-height: 1.5;
   margin: 0;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 ::selection {
-  background-color: #925ADD;
+  background-color: #0CCF92;
   color: #ffffff;
   text-shadow: none;
 }
@@ -188,7 +188,7 @@ h6 {
 }
 
 p {
-  color: #919294;
+  color: #dddddd;
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -1638,7 +1638,7 @@ a.back span {
     #FORMS
 \*------------------------------------*/
 .form-control {
-  color: #919294;
+  color: #dddddd;
   font-family: 'MADE TOMMY', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1664,19 +1664,19 @@ a.back span {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #919294;
+  color: #dddddd;
 }
 
 .form-control:-moz-placeholder {
-  color: #919294;
+  color: #dddddd;
 }
 
 .form-control::-moz-placeholder {
-  color: #919294;
+  color: #dddddd;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #919294;
+  color: #dddddd;
 }
 
 /* Placeholder */
@@ -2348,7 +2348,7 @@ a.back span {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  color: #919294;
+  color: #dddddd;
   line-height: 1.5;
 }
 
@@ -2985,7 +2985,7 @@ a.back span {
   font-family: 'MADE TOMMY', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #919294;
+  color: #dddddd;
 }
 
 .hero .hero-cotainer .hero-content .hero-headline {
@@ -3372,7 +3372,7 @@ a.back span {
   line-height: 28px;
   font-weight: 400;
   text-transform: capitalize;
-  color: #919294;
+  color: #dddddd;
   margin-bottom: 10px;
 }
 
@@ -3411,7 +3411,7 @@ a.back span {
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
-  color: #919294;
+  color: #dddddd;
   margin-bottom: 0;
 }
 
