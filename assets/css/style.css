@@ -2553,7 +2553,7 @@ a.back span {
   .header .navbar .navbar-nav>li:hover,
   .header .navbar .navbar-nav>li:focus,
   .header .navbar .navbar-nav>li:active {
-    background-color: #925ADD;
+    background-color: rgb(12, 207, 146);
   }
 
   .header .navbar .navbar-nav>li.active a,
