@@ -2711,7 +2711,7 @@ a.back span {
   .navbar .navbar-toggler .navbar-toggler-icon {
     width: 100%;
     height: 2px;
-    background-color: #925ADD;
+    background-color: #0CCF92;
     position: relative;
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
@@ -2725,7 +2725,7 @@ a.back span {
     left: 0;
     height: 2px;
     width: 100%;
-    background-color: #925ADD;
+    background-color: #0CCF92;
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
