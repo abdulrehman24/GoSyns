@@ -57,7 +57,7 @@ body {
 }
 
 .wrapper {
-  background-color: #ffffff;
+  background-color: #021626;
 }
 
 * {
@@ -3256,7 +3256,7 @@ a.back span {
 \*------------------------------------*/
 .testimonials {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 .testimonials .owl-carousel {
@@ -4760,5 +4760,141 @@ z-index: -1;
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+  }
+}
+
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  padding: 60px 0 95px 0;
+}
+
+.swiper-slide {
+  width: 10rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: -1px 5px 15px #000 1f;
+}
+
+.swiper-slide h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.8px;
+  position: relative;
+}
+
+.swiper-slide p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 0.8rem;
+}
+
+/* .swiper-slide .slide-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  width: 90%;
+} */
+
+.swiper-slide .author {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  display: none;
+  opacity: 0;
+}
+
+.swiper-slide .author span {
+  color: #111;
+  display: block;
+  margin: 5px 0 10px 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.swiper-slide .author img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3.5px solid white;
+}
+
+.swiper-slide .author ul {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide .author ul li svg {
+  width: 20px;
+  color: orange;
+}
+
+.swiper-slide-active .author {
+  display: grid;
+  opacity: 1;
+}
+
+.swiper-button-prev {
+  background: transparent;
+  border-radius: 50%;
+  top: 47%;
+  left: -90px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 2px 11px #000;
+}
+
+.swiper-button-prev::after {
+  font-size: 1.4rem;
+  content: "";
+}
+
+.swiper-button-prev svg {
+  width: 35px;
+}
+
+.swiper-button-next {
+  background: transparent;
+  border-radius: 50%;
+  top: 47%;
+  right: -90px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 2px 11px #000;
+}
+
+.swiper-button-next::after {
+  font-size: 1.4rem;
+  content: "";
+}
+
+.swiper-button-next svg {
+  width: 35px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+@media (min-width: 760px) {
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: flex;
   }
 }
