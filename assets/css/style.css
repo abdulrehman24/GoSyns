@@ -2535,12 +2535,21 @@ a.back span {
 
 @media screen and (min-width: 992px) {
 
-  /* .header .navbar .navbar-nav>li.active>a:before,
+  .header .navbar .navbar-nav>li.active>a:before,
   .header .navbar .navbar-nav>li>a:focus:before,
   .header .navbar .navbar-nav>li>a:hover:before {
     background-color: #0CCF92;
     width: 50%;
-  } */
+  }
+
+  .trust_poilet {
+    background-color: #0ccf92;
+    width: 100px;
+    height: 100%;
+    transform: skew(-30deg);
+    left: -76px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2630,6 +2639,14 @@ a.back span {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 576px) {
+  .trust_poilet {
+    background-color: #0ccf92;
+    width: 100px;
+    height: 100%;
+    transform: skew(-30deg);
+    left: -107px;
+    overflow: hidden;
+  }
 
   .features .feature-panel .feature-icon {
     margin-top: 64px;
@@ -3534,7 +3551,7 @@ a.back span {
 \*------------------------------------*/
 .features .feature-panel {
   margin-top: 48px;
-  padding: 30px 20px;
+  padding: 70px 20px 30px 20px;
   /* border-radius: 12px; */
   position: relative;
   -webkit-box-shadow: none;
@@ -4280,7 +4297,7 @@ z-index: -1;
     #Footer
 \*------------------------------------*/
 .footer {
-  padding-top: 170px;
+  padding-top: 85px;
   position: relative;
   background-color: #091e2e;
 }
