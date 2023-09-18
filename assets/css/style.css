@@ -129,8 +129,21 @@ section {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .banner-right-image {
+    height: 370px !important;
+    right: 54px;
+  }
+
   .fullscreen {
     height: auto !important;
+  }
+
+  .neues {
+    top: 99px !important;
+    left: 74px !important;
+    color: #fff;
+    font-size: 35px !important;
+    line-height: 1.2;
   }
 }
 
@@ -314,6 +327,10 @@ p {
   text-center-sm {
     text-align: center !important;
   }
+}
+
+.banner-right-image {
+  height: 450px;
 }
 
 .higlighted-style1 {
@@ -2676,7 +2693,7 @@ a.back span {
   .img-float {
     position: relative;
     top: 13px;
-    right: 81px;
+    right: 34px;
   }
 
   .footer .footer-top .footer-widget .widget-title::before {
@@ -2684,7 +2701,7 @@ a.back span {
   }
 
   p {
-    line-height: 31px;
+    line-height: 22px;
   }
 
 }
